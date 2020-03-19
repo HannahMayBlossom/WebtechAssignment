@@ -1,0 +1,21 @@
+html {
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50;
+    font-style: oblique;
+    text-align: center;
+    text-emphasis-color: orange;
+    text-decoration: springgreen;
+    text-decoration: dotted;
+    }
+
+h2{
+    font-size: 40;
+    font-style: normal;
+    text-align: right;
+    text-emphasis-color: blue;
+
+}

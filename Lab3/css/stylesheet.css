@@ -1,0 +1,63 @@
+html{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px, 10px, 20px 10px;
+    background: rgba(0, 0, 0, 0.849);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+   
+header{
+    font-style: italic;
+    color: rgb(177, 174, 174);
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+form{
+    float: left;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #17c783;
+}
+
+button{
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color: rgba(145, 235, 43, 0.842);
+    border-color: rgba(145, 235, 43, 0.842);
+}
+
+footer{
+    padding-top: 100px;
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-size: smaller;
+}
+
+.todo-done-list li {
+    text-decoration: line-through;
+    color: #999;
+}

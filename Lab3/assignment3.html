@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous" />
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 3 Assignment</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header> My Todos </header>
+            <h1>This Week's Todo List</h1>
+            <main> 
+                <form>
+                    <label name="New Todo">Add a new todo:</label>
+                    <input type="text" id="newTodo" placeholder="New Todo">
+                    <button class="submit" class="add-todo" id="addNewTodo">   
+                        <i class="fas fa-plus"></i> <span>Add</span></button>
+                </form>
+                <ul class="todo-list" id="todoList"></ul>
+                <ul class="todo-done-list" id="todoDoneList"></ul>
+            </main>
+            <footer>&copy; Hannah's Todo List 2020</footer>
+        </div>
+        <script type="text/javascript" src="js/todolistapp.js"></script>
+    </body>    
+</html>
