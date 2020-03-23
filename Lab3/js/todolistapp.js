@@ -16,6 +16,7 @@ function addTodo(label) {
     updateTodos();
   }
 }
+//this will push the arrary and check that it's not blank
 
 addNewTodoButton.addEventListener('click', function (e) {
   e.preventDefault();
@@ -23,16 +24,20 @@ addNewTodoButton.addEventListener('click', function (e) {
   newTodoInput.value = "";
   console.log(todos);
 });
+//this will add the todo when the button is clicked
 
 function updateTodos() {
   todoList.innerHTML = "";
   todoDoneList.innerHTML = "";
+//this clears old todos
 
   todos.forEach(function (el) {
+  //so I can do it for each todo  
 
     var todo = document.createElement('li');
     todo.className = "todo";
     todo.innerText = el.todo;
+    //so I can create new todos
 
     todo.addEventListener('click', function (e) {
       todos.forEach(function (el, i) {
@@ -42,6 +47,7 @@ function updateTodos() {
         }
       })
     });
+//this allows the todo's to be checked and unchecked
 
     if (el.checked) {
       todoDoneList.appendChild(todo);
@@ -50,5 +56,6 @@ function updateTodos() {
     }
   });
 }
+//this makes sure the checked items are in the correct area
 
 updateTodos() 
