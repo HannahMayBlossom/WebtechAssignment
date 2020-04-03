@@ -6,6 +6,22 @@ html{
     color: white;
 }
 
+h1{
+color: rgb(27, 150, 150);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.521);
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+h4{
+    color: rgb(14, 165, 165);
+}
+
 nav{
 float: right;
 
@@ -29,15 +45,21 @@ padding: 5px 10px;
 box-sizing: border-box;
 background-color: rgb(39, 185, 185);
 border-radius: 4px;
+}
 
+.bio ul{
+    list-style-type: circle;
+}
 
+.conlist ul{
+    list-style-type: circle;
 }
 
 footer{
     text-align: center;
+    color: rgba(255, 255, 255, 0.158);
 }
 
-.bio ul{
-    
-}
+
+
 
