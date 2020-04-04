@@ -24,7 +24,7 @@ h4{
 
 nav{
 float: right;
-
+display: block;
 }
 
 nav li{
@@ -47,12 +47,20 @@ background-color: rgb(39, 185, 185);
 border-radius: 4px;
 }
 
-.bio ul{
+.bio li{
     list-style-type: circle;
 }
 
-.conlist ul{
+.contactlist a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.contactlist li{
     list-style-type: circle;
+    padding: 5px;
+  
 }
 
 footer{
