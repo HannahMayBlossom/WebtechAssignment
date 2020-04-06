@@ -6,8 +6,13 @@ html{
     color: white;
 }
 
+header{
+    overflow: auto;
+}
+
 h1{
 color: rgb(27, 150, 150);
+float: left;
 }
 
 p{
@@ -67,6 +72,8 @@ footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.158);
 }
+
+
 
 
 
