@@ -18,7 +18,7 @@ fetch('./photos.json')
             });
             setupCarousel(json);
         });
-)};
+    });
 
 function setpupCarousel(json) {
     var imageCount = images.childElementCount;
@@ -47,3 +47,4 @@ function setpupCarousel(json) {
 
     caption.innerText = json[currentImage - 1].caption;
 }
+
