@@ -3,7 +3,7 @@ var caption = document.getElementById('carouselCaption');
 var prev = document.getElementById('carouselPrev');
 var next = document.getElementById('carouselNext');
 
-fetch('./photos.json')
+fetch("js/photos.json');
 
     .then(function (res) {
         res.json().then(function (json) {
@@ -35,7 +35,7 @@ function setpupCarousel(json) {
         caption.innerText = json[currentImage - 1].caption;
     });
 
-    next.addEventListener('clicl', function () {
+    next.addEventListener('click', function () {
         if (currentImage != imageCount) {
             ++currentImage;
             images.style.marginLeft = imageWidth - (currentImage * imageWidth) + 'px';
@@ -46,5 +46,5 @@ function setpupCarousel(json) {
 
 
     caption.innerText = json[currentImage - 1].caption;
-}
+};
 

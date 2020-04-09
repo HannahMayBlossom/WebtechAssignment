@@ -120,15 +120,22 @@ footer{
   }
   
 
-.column {
+.grid-element {
     float: left;
     width: 50%;
     padding: 10px;
   }
   
  
-  .row:after {
+  .grid-element:after {
     content: "";
     display: table;
     clear: both;
   }
+  .clear{
+    clear:both;
+}
+
+#grid{
+    width: 600px;
+}
