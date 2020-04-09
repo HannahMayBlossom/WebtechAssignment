@@ -73,8 +73,49 @@ footer{
     color: rgba(255, 255, 255, 0.158);
 }
 
+.carousel {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
 
+.carousel-images {
+    transition: margin .5s ease-in-out;
+}
 
+.carousel nav{
+    position: absolute;
+}
 
+.carousel nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30pt;
+    padding: 0px 25px;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    transition: all .25s ease;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.25);
+}
 
+.carousel nav a:first-child {
+    float: left;
+  }
 
+  .carousel nav a:last-child {
+    float: right;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+  }
+  
