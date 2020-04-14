@@ -6,10 +6,11 @@ fetch('js/photos.json')
 
 .then(function (res) {
     res.json().then(function (json) {
+        console.log(json)
         json.forEach(function (el, i) {
             var image = document.createElement('img');
 
-            image.setAttribute('img', el.img);
+            image.setAttribute('src', el.img);
             image.setAttribute('alt', el.caption);
             image.setAttribute('title', el.caption);
 
