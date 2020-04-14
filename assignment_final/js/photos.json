@@ -1,11 +1,11 @@
 [
-    {"img": "img/bangor uni.jpg", "caption":  "Caption 1"}, 
-    {"img": "img/conwy castle.jpg", "caption": "Caption 2"},
+    {"img": "img/bangor_uni.jpg", "caption":  "Caption 1"}, 
+    {"img": "img/conwy_castle.jpg", "caption": "Caption 2"},
     {"img": "img/destiny.jpg", "caption": "Caption 3"}, 
-    {"img": "img/food fest.jpg", "caption": "Caption 4"},
+    {"img": "img/food_fest.jpg", "caption": "Caption 4"},
     {"img": "img/graduation.JPG", "caption": "Caption 5"},
-    {"img": "img/printscreen.jng", "caption": "Caption 6"}, 
-    {"img": "img/red velvet.jpg", "caption": "Caption 7"}, 
-    {"img": "img/swimming pool.jpg", "caption": "Caption 8"},
-    {"img": "img/writing.jng", "caption": "Caption 9"}
+    {"img": "img/website_creation.png", "caption": "Caption 6"}, 
+    {"img": "img/red_velvet_cake.jpg", "caption": "Caption 7"}, 
+    {"img": "img/swimming_pool.jpg", "caption": "Caption 8"},
+    {"img": "img/writing.png", "caption": "Caption 9"}
 ]
