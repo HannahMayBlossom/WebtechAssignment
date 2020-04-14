@@ -1,11 +1,11 @@
 [
-    {"img": "img/bangor_uni.jpg", "caption":  "Caption 1"}, 
-    {"img": "img/conwy_castle.jpg", "caption": "Caption 2"},
-    {"img": "img/destiny.jpg", "caption": "Caption 3"}, 
-    {"img": "img/food_fest.jpg", "caption": "Caption 4"},
-    {"img": "img/graduation.JPG", "caption": "Caption 5"},
-    {"img": "img/website_creation.png", "caption": "Caption 6"}, 
-    {"img": "img/red_velvet_cake.jpg", "caption": "Caption 7"}, 
-    {"img": "img/swimming_pool.jpg", "caption": "Caption 8"},
-    {"img": "img/writing.png", "caption": "Caption 9"}
+    {"img": "img/bangor_uni.jpg", "caption":  "Bangor University"}, 
+    {"img": "img/conwy_castle.jpg", "caption": "Conwy Castle"},
+    {"img": "img/destiny.jpg", "caption": "Destiny"}, 
+    {"img": "img/food_fest.jpg", "caption": "Bangor Food fest. 2019"},
+    {"img": "img/graduation.JPG", "caption": "Graduation"},
+    {"img": "img/website_creation.png", "caption": "Website Creation"}, 
+    {"img": "img/red_velvet_cake.jpg", "caption": "Red Velvet Cake"}, 
+    {"img": "img/swimming_pool.jpg", "caption": "Bangor Swimming Pool"},
+    {"img": "img/writing.png", "caption": "Writing"}
 ]

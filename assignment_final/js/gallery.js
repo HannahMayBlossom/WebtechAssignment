@@ -8,15 +8,22 @@ fetch('js/photos.json')
     res.json().then(function (json) {
         console.log(json)
         json.forEach(function (el, i) {
+            var photoFrame = document.createElement('div');
+
             var image = document.createElement('img');
 
             image.setAttribute('src', el.img);
             image.setAttribute('alt', el.caption);
             image.setAttribute('title', el.caption);
 
-            images.appendChild(image);
+            photoFrame.appendChild(image);
+
+            var photoCaption = document.createTextNode(el.caption);
+            photoFrame.appendChild(photoCaption);
+            
+            images.appendChild(photoFrame);
         });
-        setupGallery(json);
+        
     });
 });
 
@@ -27,4 +34,4 @@ function gridList () {
         elements[i].style.width = "100%";
 }
 
-    
+

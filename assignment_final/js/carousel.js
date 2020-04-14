@@ -3,7 +3,7 @@ var caption = document.getElementById('carouselCaption');
 var prev = document.getElementById('carouselPrev');
 var next = document.getElementById('carouselNext');
 
-fetch("js/photos.json');
+fetch('js/photos.json')
 
     .then(function (res) {
         res.json().then(function (json) {

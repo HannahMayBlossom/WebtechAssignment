@@ -75,16 +75,23 @@ footer{
 
 .carousel {
     position: relative;
+    width: 500px;
+    height:250px;
     overflow: hidden;
     margin: auto;
 }
 
 .carousel-images {
+    width:4500px;
+    height: 250px;
     transition: margin .5s ease-in-out;
 }
 
 .carousel nav{
     position: absolute;
+    width: 500px;
+    height: 200px;
+    line-height: 200px;
 }
 
 .carousel nav a {
@@ -98,6 +105,10 @@ footer{
     transition: all .25s ease;
     opacity: 1;
     background-color: rgba(0,0,0,0.25);
+}
+.carousel nav:hover a {
+    transition: all .25s ease;
+    opacity: 1;
 }
 
 .carousel nav a:first-child {
@@ -125,7 +136,21 @@ footer{
     width: 1500px;
     height: 750px;
     line-height: 200px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.GalleryImages div {
+    float: left;
     display: inline-block;
 }
 
-
+.galleryImages p {
+    display: block;
+    text-align: end;
+    float: left;
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    margin: 0px;
+}
