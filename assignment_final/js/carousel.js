@@ -20,22 +20,25 @@ fetch('js/photos.json')
         });
     });
 
-function setpupCarousel(json) {
+function setupCarousel(json) {
     var imageCount = images.childElementCount;
     var currentImage = 1;
     var imageWidth = images.getElementsByTagName('img')[0].clientWidth;
 
-    prev.addEventListener('click', function () {
+
+    prev.addEventListener('click', function (e) {
+        e.preventDefault()
         if (currentImage != 1) {
             --currentImage;
 
-            images.stylemarginLeft = imageWidth - (currentImage * imageWidth) + 'px';
+            images.style.marginLeft = imageWidth - (currentImage * imageWidth) + 'px';
         }
 
         caption.innerText = json[currentImage - 1].caption;
     });
 
-    next.addEventListener('click', function () {
+    next.addEventListener('click', function (e) {
+        e.preventDefault()
         if (currentImage != imageCount) {
             ++currentImage;
             images.style.marginLeft = imageWidth - (currentImage * imageWidth) + 'px';
@@ -47,4 +50,3 @@ function setpupCarousel(json) {
 
     caption.innerText = json[currentImage - 1].caption;
 };
-

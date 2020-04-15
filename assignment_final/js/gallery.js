@@ -17,10 +17,11 @@ fetch('js/photos.json')
             image.setAttribute('title', el.caption);
 
             photoFrame.appendChild(image);
+            var caption = document.createElement("p")
 
             var photoCaption = document.createTextNode(el.caption);
-            photoFrame.appendChild(photoCaption);
-            
+            caption.appendChild(photoCaption);
+            photoFrame.appendChild(caption);
             images.appendChild(photoFrame);
         });
         
