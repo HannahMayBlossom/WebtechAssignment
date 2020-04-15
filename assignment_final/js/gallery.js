@@ -1,13 +1,24 @@
+/*
+For the top part of the code see Carousel.js.
+*/
 var images = document.getElementById('galleryImages');
 var caption = document.getElementById('galleryCaption');
-var elements = document.getElementById('galleryColumn');
 
 fetch('js/photos.json')
 
 .then(function (res) {
     res.json().then(function (json) {
-        console.log(json)
         json.forEach(function (el, i) {
+            /*Created variable photoframe to encompass the images and captions so I can manipulate them seperately. Each item is fetched from the json file
+and placed within the frame.
+appendChild(image) inserts the images into the frame, 
+createElement (p), creates the element called p for the captions to go in
+appendChild(caption) creates the text in the frame
+caption.appendChild, places the captions to their correct place using the captions created in the json file
+photoframe.appendchild inserts the captions into the framm itself
+and lastly the images are placed in the frame as well. 
+
+*/
             var photoFrame = document.createElement('div');
 
             var image = document.createElement('img');
@@ -29,10 +40,10 @@ fetch('js/photos.json')
 });
 
 var i;
-
+/*
+the function works, by setting every element to 100%
+*/
 function gridList () {
     for (i = 0; i < elements.length; i++) {}
         elements[i].style.width = "100%";
 }
-
-

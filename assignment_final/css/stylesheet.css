@@ -4,6 +4,7 @@ html{
     font-family: 'Rubik', sans-serif;
     background-color: rgb(49, 49, 49);
     color: white;
+    padding: 0px 20px;
 }
 
 header{
@@ -71,12 +72,14 @@ border-radius: 4px;
 footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.158);
+    position: static;
+    padding: 10px;
 }
 
 .carousel {
     position: relative;
     width: 500px;
-    height:250px;
+    height: 300px;
     overflow: hidden;
     margin: auto;
 }
@@ -90,21 +93,21 @@ footer{
 .carousel nav{
     position: absolute;
     width: 500px;
-    height: 200px;
-    line-height: 200px;
+    height: 250px;
+    line-height: 250px;
 }
 
 .carousel nav a {
     text-decoration: none;
-    color: #FFF;
+    color: white;
     font-weight: bold;
     font-size: 30pt;
     padding: 0px 25px;
     opacity: 0;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(26, 170, 158, 0.1);
     transition: all .25s ease;
     opacity: 1;
-    background-color: rgba(0,0,0,0.25);
+
 }
 .carousel nav:hover a {
     transition: all .25s ease;
@@ -124,7 +127,7 @@ footer{
     bottom: 0;
     text-align: center;
     width: 100%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(26, 170, 158, 0.1);
     height: 50px;
     line-height: 50px;
     margin: 0px;
@@ -135,22 +138,20 @@ footer{
 .grid {
     width: 1500px;
     height: 750px;
-    line-height: 200px;
     padding: 0px 10px;
     position: relative;
 }
 
-.GalleryImages div {
+.galleryImages div {
     float: left;
     display: inline-block;
+    height: 350px;
 }
 
 .galleryImages p {
-    display: block;
-    text-align: end;
-    float: left;
-    position: absolute;
     text-align: center;
+    position: absolute;
+    float: left;
+    display: block;
     height: 50px;
-    margin: 0px;
 }
